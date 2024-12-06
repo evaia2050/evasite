@@ -15,7 +15,7 @@ window.onload = typeText;
 
 function copyText() {
     // O texto que você deseja copiar
-    const text = "CA: DGVyG3kG56rbZ2MYWTXitG9sucWqKj73D6YZasjpump";
+    const text = "8QBq3roWNj8EnaJ1WQtfKn1GzHP34jnPyW8Bmmqtpump";
 
     // Cria um elemento temporário para facilitar a cópia
     const textArea = document.createElement("textarea");
