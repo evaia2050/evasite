@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eva - 2050</title>
+    <title>IA - Página Simples</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <a href="https://x.com/evaia2050" target="_blank" class="icon twitter">
+        <a href="https://twitter.com" target="_blank" class="icon twitter">
             <img src="twitter.png" alt="Twitter Logo">
         </a>
         <a href="https://t.me/evaia2050" target="_blank" class="icon telegram">
@@ -17,15 +17,17 @@
     </header>
     <div class="container">
         <div class="photo">
-            <img src="EVA.png" alt="EVA">
+            <img src="eva.png" alt="Agente EVA">
         </div>
         <div class="screen">
             <div class="text" id="typing"></div>
             <div class="cursor"></div>
+            <input type="text" id="userInput" class="user-input" placeholder="Sua resposta aqui..." style="display: none;">
+            <button id="sendButton" class="animated-button" style="display: none;" onclick="sendUserResponse()">Enviar</button>
         </div>
     </div>
     <footer class="footer">
-        <button class="animated-button" onclick="copyText()">CA: DGVyG3kG56rbZ2MYWTXitG9sucWqKj73D6YZasjpump</button>
+        <button class="animated-button" id="copyButton" onclick="copyText(CONTRACTADRESS)" style="display: none;">CA: CONTRACT ADRESS</button>
     </footer>
     <script src="script.js"></script>
 </body>
